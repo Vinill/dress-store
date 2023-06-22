@@ -1,9 +1,12 @@
 import React from 'react'
 
 export const Gorro = () => {
+
+  const { text } = props
+
   return (
     <div>
-      Gorros
+      <p>{text}</p>
     </div>
   );
 };

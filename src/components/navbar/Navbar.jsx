@@ -9,7 +9,7 @@ import { Logo } from "../logo/Logo";
 export const Navbar = () => {
   return (
     <div className='nav'>
-      <Gorro/>
+      <Gorro name={name}/>
       <Reloj/>
       <Ropa/>
       <Rinonera/>
