@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const Reloj = () => {
+export const Rinonera = () => {
   return (
     <div>
-      Reloj
+      Riñonera
     </div>
   );
 };
