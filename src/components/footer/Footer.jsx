@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const Ropa = () => {
+export const Footer = () => {
   return (
     <div>
-      Ropa
+      Footer
     </div>
   );
 };

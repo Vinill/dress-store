@@ -1,6 +1,5 @@
-.nav {
-    background-color: aqua;
-    height: 80px;
+.navbar {
+    background-color: white;
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }

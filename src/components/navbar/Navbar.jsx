@@ -1,20 +1,14 @@
 import React from 'react'
-import "./Navbar.css";
-import { Gorro } from "../gorro/Gorro";
-import { Reloj } from "../reloj/Reloj";
-import { Rinonera } from "../riñonera/Riñonera";
-import { Ropa } from "../ropa/Ropa";
-import { Logo } from "../logo/Logo";
+import { NavCenter } from "../nav-center/NavCenter";
+import { NavLog } from "../nav-log/NavLog";
+import "./Navbar.css"
 
 export const Navbar = () => {
   return (
-    <div className='nav'>
-      <Gorro name={name}/>
-      <Reloj/>
-      <Ropa/>
-      <Rinonera/>
-      <Logo/>
+    <div className='navbar'>
+      <NavLog/>
+      <NavCenter/>
+      <NavLog/>
     </div>
-  );
-};
-
+  )
+}

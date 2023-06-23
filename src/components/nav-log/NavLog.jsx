@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const Reloj = () => {
+export const NavLog = () => {
   return (
     <div>
-      Reloj
+        Log
     </div>
-  );
-};
+  )
+}
