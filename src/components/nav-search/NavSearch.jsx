@@ -1,15 +1,27 @@
 import React from 'react'
 import "./NavSearch.css"
-import { GiConverseShoe } from "react-icons/gi";
+import { InputSearch } from "../input-search/InputSearch";
+import { CiHeart } from "react-icons/ci";
+import { CiShoppingCart } from "react-icons/ci";
+
 
 export const NavSearch = () => {
 
-    const calzado = <GiConverseShoe style={{color:"black", fontSize:"50px"}}/>
+  const like = <CiHeart style={{color:"black", fontSize:"35px"}}/>
+
+  const cart = <CiShoppingCart style={{color:"black", fontSize:"35px"}}/>
 
   return (
-    <div>
-      <input type="search" name="Search" className='search'/>
-      
+    <div className='nav-search'>
+      <div className='border'>
+        <InputSearch/>
+      </div>
+      <div className='cart'>
+        {cart}
+      </div>
+      <div className='mg'>
+        {like}
+      </div>
     </div>
   )
 }

@@ -8,13 +8,13 @@ import { GiConverseShoe } from "react-icons/gi";
 
 export const NavCenter = () => {
 
-  const gorro = <GiBilledCap style={{color:"black", fontSize:"50px"}}/>
+  const gorro = <GiBilledCap style={{color:"black", fontSize:"35px"}}/>
 
-  const camisa = <GiTShirt style={{color:"black", fontSize:"50px"}}/>
+  const camisa = <GiTShirt style={{color:"black", fontSize:"35px"}}/>
 
-  const reloj = <GiWatch style={{color:"black", fontSize:"50px"}}/>
+  const reloj = <GiWatch style={{color:"black", fontSize:"35px"}}/>
 
-  const calzado = <GiConverseShoe style={{color:"black", fontSize:"50px"}}/>
+  const calzado = <GiConverseShoe style={{color:"black", fontSize:"35px"}}/>
 
   return (
     <div className='nav'>

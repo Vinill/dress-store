@@ -1,0 +1,11 @@
+.nav-search {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-right: 10px;
+}
+
+.border {
+    border: 1px solid black;
+    margin-inline: 10px;
+}
