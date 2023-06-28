@@ -3,9 +3,9 @@ import "./NavLog.css"
 
 export const NavLog = () => {
   return (
-    <div className='name'>
+    <div className='logo'>
       <div>
-        <h1>Logo</h1>
+        <h1>Tienda mi sueño</h1>
       </div>
     </div>
   )

@@ -1,4 +1,19 @@
 .body-home {
-    height: 400px;
-    background-color: aqua;
+    height: 550px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 15px;
 }
+
+.banner {
+    grid-column: 1 / 5;
+    height: 275px;
+    background-color: bisque;
+}
+
+.comp-one, .comp-two, .comp-three, .comp-four {
+    height: 270px;
+    background-color: bisque;
+}
+
