@@ -1,6 +1,7 @@
 import React from 'react'
 import "./BodyHome.css"
 
+
 export const BodyHome = () => {
   return (
     <div className='body-home'>

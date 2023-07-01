@@ -1,10 +1,9 @@
 .nav {
-    width: 700px;
+    width: 500px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);align-items: center;
-    text-align: center;
 }
 
-button {
-    width: 150px;
+.buttonY:hover {
+    color: crimson;
 }

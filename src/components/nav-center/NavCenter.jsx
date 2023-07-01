@@ -1,6 +1,5 @@
 import React from 'react'
 import "./NavCenter.css";
-import { NavElement } from "../nav-element/NavElement";
 import { IoIosMan } from "react-icons/io";
 import { IoIosWoman } from "react-icons/io";
 import { FaChildren } from "react-icons/fa6";
@@ -9,22 +8,43 @@ import Button from '@mui/material/Button';
 
 export const NavCenter = () => {
 
-  const hombre = <IoIosMan style={{color:"black", fontSize:"35px"}}/>
-
-  const mujer = <IoIosWoman style={{color:"black", fontSize:"35px"}}/>
-
-  const niño = <FaChildren style={{color:"black", fontSize:"35px"}}/>
-
   return (
     <div className='nav'>
-      <Button variant="outlined" sx={{color:'black', borderColor:"black"}}>
-        <NavElement text="Hombre" textTwo={hombre}/>
+      <Button className='buttonY' variant="text" sx={{
+        color:'black',
+        borderColor:"black",
+        height:"70px",
+        width:"80px",
+        textAlign:"center",
+        display:"flex",
+        flexDirection:"column",
+        }}>
+        <IoIosMan style={{fontSize:"30px"}} />
+        Hombre
       </Button>
-      <Button sx={{color:'black'}}>
-        <NavElement text="Mujer" textTwo={mujer}/>
+      <Button className='buttonY' sx={{
+        color:'black',
+        borderColor:"black",
+        height:"70px",
+        width:"80px",
+        textAlign:"center",
+        display:"flex",
+        flexDirection:"column",
+        }}>
+        <IoIosWoman style={{fontSize:"30px"}} />
+        Mujeres
       </Button>
-      <Button>
-        <NavElement text="Niño y Niña" textTwo={niño}/>
+      <Button className='buttonY' sx={{
+        color:'black',
+        borderColor:"black",
+        height:"70px",
+        width:"80px",
+        textAlign:"center",
+        display:"flex",
+        flexDirection:"column",
+        }}>
+        <FaChildren style={{fontSize:"30px"}} />
+        Niños
       </Button>
     </div>
   );
