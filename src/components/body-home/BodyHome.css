@@ -3,22 +3,40 @@
     display: grid;
     gap: 15px;
     grid-template-columns: repeat(4, 1fr);
-    padding: 15px;
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
 .banner {
-    border: 1px solid black;
+    height: 400px;
     grid-column: 1 / 5;
     background-size: 100%;
     font-size: 50px;
     font-weight: 900;
     color: white;
     text-align: left;
+    background-color: bisque;
 }
 
 .banner-img {
-    width: 600px;
+    width: 400px;
     height: 400px;
+}
+
+.section {
+    grid-column: 1 / 5;
+    height: 200px;
+    margin-inline: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.imgs-down {
+    height: 200px;
+}
+
+.one {
+    background-color: aquamarine;
+    justify-content: center;
 }
