@@ -1,70 +1,24 @@
 .body-home {
-    height: 550px;
+    background-color: beige;
     display: grid;
     gap: 15px;
     grid-template-columns: repeat(4, 1fr);
     padding: 15px;
-    background-image: url("../../imgs/Vector.png");
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
 .banner {
+    border: 1px solid black;
     grid-column: 1 / 5;
-    height: 275px;
     background-size: 100%;
     font-size: 50px;
     font-weight: 900;
     color: white;
     text-align: left;
-    padding-left: 20px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-
-.banner-logo {
-    grid-column: 4 / 5;
-}
-
-.banner-logo_img {
-    width: 200px;
-    height: 300px;
 }
 
 .banner-img {
-    grid-column: 1 / 4;
-}
-
-.banner-img_img {
-    width: 900px;
-    height: 300px;
-}
-
-.comp-one, .comp-two, .comp-three, .comp-four {
-    height: 270px;
-    background-color: white;
-    text-align: center;
-    font-size: 50px;
-    font-weight: 900;
-    color: white;
-}
-
-.comp-one {
-    background-image: url("../../imgs/Rectangle\ 59.png");
-    background-size: 100%;
-}
-
-.comp-two {
-    background-image: url("../../imgs/Rectangle\ 58.png");
-    background-size: 100%;
-}
-
-.comp-three {
-    background-image: url("../../imgs/Rectangle\ 56.png");
-    background-size: 100%;
-}
-
-.comp-four {
-    background-image: url("../../imgs/Rectangle\ 60.png");
-    background-size: 100%;
+    width: 600px;
+    height: 400px;
 }
