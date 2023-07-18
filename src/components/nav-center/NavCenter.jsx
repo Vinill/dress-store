@@ -10,13 +10,13 @@ export const NavCenter = () => {
         INICIO
       </Button>
       <Button className='buttonY' sx={{color:'black', fontSize:'12px'}}>
-        TIENDA
+        MUJER
+      </Button>
+      <Button className='buttonY' sx={{color:'black', fontSize:'12px'}}>
+        HOMBRE
       </Button>
       <Button className='buttonY' sx={{color:'black', fontSize:'12px'}}>
         OFERTAS
-      </Button>
-      <Button className='buttonY' sx={{color:'black', fontSize:'12px'}}>
-        PAGINAS
       </Button>
       <Button className='buttonY' sx={{color:'black', fontSize:'12px'}}>
         CONTACTO
