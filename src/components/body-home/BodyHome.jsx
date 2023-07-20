@@ -1,9 +1,9 @@
 import React from 'react'
 import "./BodyHome.css" 
 import imgBanner from "./../../imgs/882666651_1-removebg-preview.png"
-import ropa from "./../../imgs/ropa.jpg"
-import accessorios from "../../imgs/accesorios.webp"
-import calzado from "../../imgs/calzado.webp"
+import ropa from "./../../imgs/pareja-despreocupada-hermosa-joven-pareja-gesticulando_425904-7952.jpg"
+import accessorios from "../../imgs/accesorios.jpg"
+import calzado from "../../imgs/calzado.jpg"
 import Button from '@mui/material/Button';
 
 export const BodyHome = () => {
@@ -11,7 +11,7 @@ export const BodyHome = () => {
     <div className='body-home'>
       <div className='banner'>
         <div className='banner-texts'>
-          <p>coleccion de invierno 2023</p>
+          <p>TIENDA / COLECCION DE INVIERNO 2023</p>
           <h1>
             Hasta 30% Off
             Nuevos Ingresos
@@ -19,6 +19,7 @@ export const BodyHome = () => {
           <Button className='ropa-button' variant='contained' sx={{
             color:'white',
             fontSize:'15px',
+            fontFamily:"Didact Gothic, sans-serif",
             height:"40px",
             width:"120px",
             marginTop:"10px",
@@ -33,7 +34,7 @@ export const BodyHome = () => {
               opacity: 0.93,
             },
             }}>
-            ROPA
+            OFERTAS
           </Button>
         </div>
         <div className='banner-img'>
@@ -45,9 +46,10 @@ export const BodyHome = () => {
           <Button className='ropa-button' variant='contained' sx={{
             color:'black',
             fontSize:'15px',
+            fontFamily:"Exo",
             position:"absolute",
-            height:"40px",
-            width:"120px",
+            height:"35px",
+            width:"150px",
             backgroundColor:"white",
             borderBottom:"none",
             lineHeight:"40px",
@@ -60,8 +62,8 @@ export const BodyHome = () => {
               backgroundColor:"ButtonFace",
               opacity: 0.93,
               width:180,
-              height:50,
-              fontSize:20,
+              height:45,
+              fontSize:21,
             },
             }}>
             ROPA
@@ -72,8 +74,9 @@ export const BodyHome = () => {
           <Button className='ropa-button' variant='contained' sx={{
               color:'black',
               fontSize:'15px',
+              fontFamily:"Exo",
               position:"absolute",
-              height:"40px",
+              height:"35px",
               width:"200px",
               backgroundColor:"white",
               borderBottom:"none",
@@ -87,7 +90,7 @@ export const BodyHome = () => {
                 backgroundColor:"ButtonFace",
                 opacity: 0.93,
                 width:250,
-                height:50,
+                height:45,
                 fontSize:20,
               },
               }}>
@@ -99,9 +102,10 @@ export const BodyHome = () => {
           <Button className='ropa-button' variant='contained' sx={{
                 color:'black',
                 fontSize:'15px',
+                fontFamily:"Exo",
                 position:"absolute",
-                height:"40px",
-                width:"200px",
+                height:"35px",
+                width:"170px",
                 backgroundColor:"white",
                 borderBottom:"none",
                 lineHeight:"40px",
@@ -113,8 +117,8 @@ export const BodyHome = () => {
                   color:"red",
                   backgroundColor:"ButtonFace",
                   opacity: 0.93,
-                  width:250,
-                  height:50,
+                  width:200,
+                  height:45,
                   fontSize:20,
                 },
                 }}>

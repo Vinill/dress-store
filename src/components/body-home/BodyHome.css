@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  } 
+}
+
 
 .body-home {
     display: grid;
@@ -14,22 +15,30 @@
     display: flex;
     height: 400px;
     grid-column: 1 / 5;
-    background-color: gainsboro;
+    background-color: #E5E7E9 ;
     justify-content: space-around;
 }
 
 .banner-texts {
     padding-left: 100px;
     height: 250px;
-    width: 500px;
+    width: 600px;
     align-self: center;
     text-align: left;
     display: grid;
 }
 
+
 .banner-texts h1 {
-    font-size: 40px;
-    width: 340px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.banner-texts P {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
 }
 
 .banner-img { 
@@ -44,7 +53,6 @@
     margin-inline: 200px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    z-index: 1;
 }
 
 .imgs-down {
@@ -54,10 +62,18 @@
 
 
 .ropa-div {
+    margin-top: 20px;
+    background-color: brown;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 220px;
     width: 350px;
+}
+
+.ropa-div img {
+    height: 220px;
+    width: 100%;
 }
 
 .ropa-text {
