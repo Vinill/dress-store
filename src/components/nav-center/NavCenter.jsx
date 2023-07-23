@@ -9,7 +9,7 @@ export const NavCenter = () => {
       <Button className='buttonY' sx={{color:'black', fontSize:'12px'}}>
         INICIO
       </Button>
-      <Button className='buttonY' sx={{color:'black', fontSize:'15px', fontFamily:"Exo"}}>
+      <Button className='buttonY' sx={{color:'black', fontSize:'12px'}}>
         MUJER
       </Button>
       <Button className='buttonY' sx={{color:'black', fontSize:'12px'}}>

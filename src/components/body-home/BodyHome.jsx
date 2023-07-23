@@ -1,6 +1,6 @@
 import React from 'react'
 import "./BodyHome.css" 
-import imgBanner from "./../../imgs/882666651_1-removebg-preview.png"
+import imgBanner from "./../../imgs/imgBanner.png"
 import ropa from "./../../imgs/pareja-despreocupada-hermosa-joven-pareja-gesticulando_425904-7952.jpg"
 import accessorios from "../../imgs/accesorios.jpg"
 import calzado from "../../imgs/calzado.jpg"
@@ -19,7 +19,7 @@ export const BodyHome = () => {
           <Button className='ropa-button' variant='contained' sx={{
             color:'white',
             fontSize:'15px',
-            fontFamily:"Didact Gothic, sans-serif",
+            fontFamily:"Exo, sans-serif",
             height:"40px",
             width:"120px",
             marginTop:"10px",
@@ -34,7 +34,7 @@ export const BodyHome = () => {
               opacity: 0.93,
             },
             }}>
-            OFERTAS
+            VER MAS
           </Button>
         </div>
         <div className='banner-img'>
