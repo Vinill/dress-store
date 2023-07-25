@@ -1,5 +1,5 @@
 .navbar {
-    background-color: white;
+    background-color: #E5E7E9;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-content: center;

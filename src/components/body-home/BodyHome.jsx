@@ -1,9 +1,6 @@
 import React from 'react'
 import "./BodyHome.css" 
 import imgBanner from "./../../imgs/imgBanner.png"
-import ropa from "./../../imgs/pareja-despreocupada-hermosa-joven-pareja-gesticulando_425904-7952.jpg"
-import accessorios from "../../imgs/accesorios.jpg"
-import calzado from "../../imgs/calzado.jpg"
 import Button from '@mui/material/Button';
 
 export const BodyHome = () => {
@@ -68,16 +65,15 @@ export const BodyHome = () => {
             }}>
             ROPA
           </Button>
-          <img src={ropa} alt="img" className='imgs-down'/>
         </div>
-        <div className='ropa-div'>
+        <div className='accesorios-div'>
           <Button className='ropa-button' variant='contained' sx={{
               color:'black',
               fontSize:'15px',
               fontFamily:"Exo",
               position:"absolute",
               height:"35px",
-              width:"200px",
+              width:"180px",
               backgroundColor:"white",
               borderBottom:"none",
               lineHeight:"40px",
@@ -89,16 +85,15 @@ export const BodyHome = () => {
                 color:"red",
                 backgroundColor:"ButtonFace",
                 opacity: 0.93,
-                width:250,
+                width:220,
                 height:45,
                 fontSize:20,
               },
               }}>
             ACCESORIOS
           </Button>
-          <img src={accessorios} alt="img" className='imgs-down'/>
         </div>
-        <div className='ropa-div'>
+        <div className='calzado-div'>
           <Button className='ropa-button' variant='contained' sx={{
                 color:'black',
                 fontSize:'15px',
@@ -124,9 +119,18 @@ export const BodyHome = () => {
                 }}>
             CALZADO
           </Button>
-          <img src={calzado} alt="img" className='imgs-down'/>
         </div>
       </div>
+      <div className="banner-two">
+          <div className="prueba">
+          </div>
+      </div>
+      {/* 
+      <div className='body-middle'>
+        <h1>Sobre Nosotros</h1>
+        <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, quis. Rem repellendus neque, aliquam aut debitis deserunt et soluta natus eligendi! Iure, illum provident eum consectetur temporibus nobis illo labore.</h3>
+      </div>
+      */}
     </div>
   );
 };

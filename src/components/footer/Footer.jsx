@@ -10,14 +10,11 @@ export const Footer = () => {
   return (
     <div className='footer'>
       <div>
-        <IconButton  sx={{color:"black"}}>
+        <IconButton sx={{color:"black"}}>
           <InstagramIcon style={{fontSize:"35px"}}/>
         </IconButton>
-        <IconButton  sx={{color:"black"}}>
+        <IconButton sx={{color:"black"}}>
           <FacebookIcon style={{fontSize:"35px"}}/>
-        </IconButton>
-        <IconButton  sx={{color:"black"}}>
-          <TwitterIcon style={{fontSize:"35px"}}/>
         </IconButton>
       </div>
       <p>info - Suport - Marketing</p>

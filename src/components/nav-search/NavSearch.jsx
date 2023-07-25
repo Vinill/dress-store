@@ -3,13 +3,14 @@ import "./NavSearch.css"
 import { InputSearch } from "../input-search/InputSearch";
 import { CiHeart } from "react-icons/ci";
 import { CiShoppingCart } from "react-icons/ci";
+import IconButton from '@mui/material/IconButton';
 
 
 export const NavSearch = () => {
 
-  const like = <CiHeart style={{color:"black", fontSize:"35px"}}/>
+  const like = <CiHeart style={{color:"black", fontSize:"30px"}}/>
 
-  const cart = <CiShoppingCart style={{color:"black", fontSize:"35px"}}/>
+  const cart = <CiShoppingCart style={{color:"black", fontSize:"30px"}}/>
 
   return (
     <div className='nav-search'>
@@ -17,10 +18,14 @@ export const NavSearch = () => {
         <InputSearch/>
       </div>
       <div className='cart'>
-        {cart}
+        <IconButton sx={{color:"black"}}>
+          {cart}
+        </IconButton>
       </div>
       <div className='mg'>
-        {like}
+        <IconButton sx={{color:"black"}}>
+          {like}
+        </IconButton>
       </div>
     </div>
   )

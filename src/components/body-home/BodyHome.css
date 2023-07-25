@@ -8,12 +8,11 @@
 .body-home {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    background-size: 100%;
 }
 
 .banner {
     display: flex;
-    height: 400px;
+    height: 500px;
     grid-column: 1 / 5;
     background-color: #E5E7E9 ;
     justify-content: space-around;
@@ -47,32 +46,44 @@
 }
 
 .section {
-    background-color: white;
     grid-column: 1 / 5;
-    height: 250px;
-    margin-inline: 200px;
+    height: 300px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    padding-inline: 150px;
+    gap: 20px;
+    padding-top: 50px;
 }
-
-.imgs-down {
-    height: 200px;
-    width: 350px;
-}
-
 
 .ropa-div {
-    margin-top: 20px;
-    background-color: brown;
+    background: url(../../imgs/pareja-despreocupada-hermosa-joven-pareja-gesticulando_425904-7952.jpg);
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 220px;
-    width: 350px;
+    height: 250px;
+}
+
+.accesorios-div {
+    background: url(../../imgs/accesorios.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.calzado-div {
+    background: url(../../imgs/calzado.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
 }
 
 .ropa-div img {
-    height: 220px;
+    height: 250px;
     width: 100%;
 }
 
@@ -83,3 +94,51 @@
     position: absolute;
 }
 
+.body-middle {
+    grid-column: 1 / 5;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-inline: 300px;
+}
+
+.banner-two {
+    background: url("../../imgs/bg-5.jpg.webp");
+    grid-column: 1 / 5;
+    margin-top: 50px;
+    height: 450px;
+    margin-inline: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prueba {
+    height: 250px;
+    width: 500px;
+    border: 2px solid black;
+}
+
+.prueba:hover {
+    backdrop-filter: blur(10px);
+}
+
+.banner-two img {
+    height: 448px;
+    width: 100%;
+}
+
+.body-middle h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.body-middle h3 {
+    padding-top: 10px;
+    font-family: 'Exo', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}

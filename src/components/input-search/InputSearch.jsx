@@ -9,7 +9,7 @@ const calzado = <GoSearch style={{color:"black", fontSize:"20px"}}/>
   return (
     <div className='nav-search'>
       <div className='searchh'>
-        <input type="search" name="Search" className='j'/>
+        <input style={{backgroundColor:"#E5E7E9"}} type="search" name="Search" className='j'/>
       </div>
       <div className='calzado'>
         {calzado}
