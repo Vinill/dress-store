@@ -122,15 +122,12 @@ export const BodyHome = () => {
         </div>
       </div>
       <div className="banner-two">
-          <div className="prueba">
-          </div>
+        <div className='body-middle'>
+          <h1>Ropa de la mejor calidad</h1>
+          <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, quis. Rem repellendus neque, aliquam aut debitis deserunt et soluta natus eligendi! Iure, illum provident eum consectetur temporibus nobis illo labore.</h3>
+        </div>
+      {/* <div className="prueba"></div>*/}
       </div>
-      {/* 
-      <div className='body-middle'>
-        <h1>Sobre Nosotros</h1>
-        <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, quis. Rem repellendus neque, aliquam aut debitis deserunt et soluta natus eligendi! Iure, illum provident eum consectetur temporibus nobis illo labore.</h3>
-      </div>
-      */}
     </div>
   );
 };

@@ -95,13 +95,18 @@
 }
 
 .body-middle {
-    grid-column: 1 / 5;
     text-align: center;
     display: flex;
     align-items: center;
+    height: 400px;
+    width: 500px;
     justify-content: center;
     flex-direction: column;
-    padding-inline: 300px;
+    flex-wrap: wrap;
+    backdrop-filter: blur(10px);
+    border: 1px solid black;
+    margin-right: 70px;
+    text-align: right;
 }
 
 .banner-two {
@@ -112,7 +117,7 @@
     margin-inline: 150px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .prueba {
